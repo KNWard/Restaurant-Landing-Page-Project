@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Site</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5099dce4b2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav" id="navbar">
+        <a href="#" class="nav_logo" id="logo">Order Order</a>
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#" class="nav_link" id="links">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#ourstory" class="nav_link">Our Story</a>
+          </li>
+          <li class="nav_item">
+            <a href="#menu" class="nav_link" id="menuLink">Menu</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact" class="nav_link">Contact & Reservations</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--OUR STORY-->
+      <section class="mid-section" id="ourstory">
+        <div class="content">
+          <div class="our-story">
+            <h3>Our Story</h3>
+            <p>
+              Order Order opened in June 2015 and is located in the Riverdale
+              section of the Bronx. Since then, award winning Head Chef and
+              owner Naomi Chris has been serving electrifying renditions of old
+              classics in her native borough.<br />
+              Order Order gives a new spin on the classic dinner. And old time
+              flavore with a new hip, family friendly flare. It's interior is
+              welcoming with a bright exuberant atmosphere and upbeat and
+              comforting music.
+            </p>
+          </div>
+          <div class="imgbox">
+            <img src="img/chef.jpg" class="chef" alt="female chef" />
+            <p>Head Chef Naomi Chris</p>
+          </div>
+        </div>
+      </section>
+      <!-- END OF OUR STORY -->
+
+      <!-- SLIDESHOW -->
+      <section class="slideshow">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="img/food1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/food2.jpeg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/food3.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/food4.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/food5.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/food6.jpg" style="width: 100%" />
+          </div>
+        </div>
+
+        <div class="dot-container" style="text-align: center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+
+      <!-- END OF SLIDESHOW -->
+
+      <!--MENU-->
+      <section class="menus" id="menu">
+        <div class="wrapper">
+          <h3 class="menu-header">Order Order</h3>
+
+          <div class="buttons">
+            <button id="morning-btn">Morning</button>
+            <button id="noon-btn">Noon</button>
+            <button id="night-btn">Night</button>
+          </div>
+
+          <h1 class="message-display" id="menu-message">
+            Menu items are subject to change upon chef's request depending on
+            season and availability
+          </h1>
+
+          <div class="boxes">
+            <div id="morning" style="display: none">
+              <div class="menu breakfast">
+                <div class="single-menu">
+                  <div class="menu-content">
+                    <h4>Golden Brown Pancakes ....<span> $8.25</span></h4>
+                    <p>
+                      Dusted with powdered sugar and served with choice of fruit
+                      preserves
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Whole Wheat Pancakes ....<span> $8.75</span></h4>
+                    <p>Served with fresh scrambled egg whites</p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>
+                      French Toast ....
+                      <span> $8.25</span>
+                    </h4>
+                    <p>Dipped in rich egg batter, grilled golden brown</p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Athenian Omelette ....<span> $12.95</span></h4>
+                    <p>Served with spinach and feta cheese</p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Leo Omelette ....<span> $13</span></h4>
+                    <p>Served with minced nova scotia lox and onions</p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Garden Omelette ....<span> $12.95</span></h4>
+                    <p>Served with broccoli, mushrooms, onions and tomatoes</p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Shrimp and Grits ....<span> $12.75</span></h4>
+                    <p>
+                      Southern cheesey grits served with lightly grilled cajun
+                      seasoned shrimp
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Black Angus Steak ....<span> $28</span></h4>
+                    <p>
+                      Served with two eggs and choice of hash browns or home
+                      fries
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="noon" style="display: none">
+              <div class="menu lunch">
+                <div class="single-menu">
+                  <div class="menu-content">
+                    <h4>Wings ....<span> $12</span></h4>
+                    <p>
+                      Choice of buffalo, asian sesame, honey bbq, or teriyaki
+                      and fries
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Vegitarian Panini ....<span> $13.75</span></h4>
+                    <p>
+                      Grilled eggplant, red onions, roasted red peppers and
+                      mozarella served with sweet potato fries
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Grilled Chicken Panini ....<span> $13.75</span></h4>
+                    <p>
+                      Seasoned chicken, bell peppers, monteray jack cheese and
+                      chipotle mayonnaise served with pico de gallo
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Beef Burger Deluxe ....<span> $12.25</span></h4>
+                    <p>
+                      Served with french fries, onion rings, lettuce and tomato
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Turkey Burger Deluxe ....<span> $13.25</span></h4>
+                    <p>
+                      Served with french fries, onion rings, lettuce and tomato
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Salmon Burger Deluxe ....<span> $16.75</span></h4>
+                    <p>
+                      Served with mixed Asian vegetables, wasabi mayonnaise and
+                      sweet potato fries
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Gyro Wrap ....<span> $14.75</span></h4>
+                    <p>
+                      Lamb gyro, lettuce, tomatoes, cucumbers, green peppers and
+                      feta cheese
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Crispy Cold Salad ....<span> $13</span></h4>
+                    <p>
+                      Choice of greek, caeser, Thai chicken, tuna, cobb and
+                      salmon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="night" style="display: none">
+              <div class="menu dinner">
+                <div class="single-menu">
+                  <div class="menu-content">
+                    <h4>Prime London Broil ....<span> $25.95</span></h4>
+                    <p>
+                      Served with mushroom gravy, red mashed potatoes and
+                      steamed vegetables
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Grilled Chicken Paillard ....<span> $21.95</span></h4>
+                    <p>
+                      Served with red mashed potatoes and steamed vegetables
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Hot Fried Chicken ....<span> $20.25</span></h4>
+                    <p>
+                      Crispy fried chicken drizzled with sweet hot sauce, served
+                      with fries
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Shrimp Scampi ....<span> $27.95</span></h4>
+                    <p>
+                      Tender shrimp broiled with a fresh garlic lemon butter
+                      sauce
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Norwegian Salmon Filet ....<span> $27.95</span></h4>
+                    <p>With herb infused lemon butter white wine sauce</p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Fresh Filet of Tilapia ....<span> $22.95</span></h4>
+                    <p>
+                      Lightly breaded and fried to perfection, served with
+                      tartar sauce or cajun remoulade
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Chicken Parmigiana ....<span> $22.95</span></h4>
+                    <p>
+                      Lightly breaded chicken breast, baked with marinara sauce
+                      and topped with melted mozarella cheese
+                    </p>
+                  </div>
+                  <div class="menu-content">
+                    <h4>Eggplant Parmigiana ....<span> $18.95</span></h4>
+                    <p>
+                      Lightly breaded, baked with marinara sauce and topped with
+                      melted mozarella cheese
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF MENU -->
+
+      <!--CONTACT-->
+      <section class="contact" id="contact">
+        <div class="reservation">
+          <h1>Make a Reservation</h1>
+          <p>
+            Call (123) 555-4567,  8 am to 11:30 pm daily or book online with
+            OpenTable.<br />
+            Reservation required for parties of 6 or more.
+          </p>
+
+          <a href="https://www.opentable.com/" class="btn-res">Dine With Us</a>
+        </div>
+        <div class="social">
+          <ul class="social-contact">
+            <li class="social-contact-item">
+              <a href="https://www.facebook.com/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="social-contact-item">
+              <a href="https://www.instagram.com/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="social-contact-item">
+              <a href="https://www.tiktok.com/en/"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </li>
+            <li class="social-contact-item">
+              <a href="https://twitter.com/?lang=en"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer>
+        <ul class="footer-item">
+          <li>Order Order, 123 West 238th Street Bronx, NY 10463</li>
+          <li>(123) 555-4567</li>
+          <li>OrderOrder@gmail.com</li>
+        </ul>
+        <p class="copyright">Copyright&copy;2022 Order Order</p>
+      </footer>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
