@@ -17,3 +17,6 @@ Order Order is a ficticious restaurant landing page built after I completed the 
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Pexels- free stock photos](https://www.pexels.com/)
+
+## Author
+- Kendra Ward - [@KNWard](https://github.com/KNWard)
